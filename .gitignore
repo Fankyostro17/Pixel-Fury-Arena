@@ -1,21 +1,21 @@
 ```
 # Flutter/Dart specific
 .dart_tool/
+.build/
+coverage/
+*.log
+*.tmp
+
+# Dependencies
+.pub/
 .packages
-.pub-cache/
-*.dart.js
-*.dart.js.map
-*.part.js
-*.part.js.map
-build/
-**/generated_plugin_registrant.*
 
 # Environment variables
 .env
 .env.local
 *.env.*
 
-# IDE specific
+# IDE files
 .vscode/
 .idea/
 *.swp
@@ -24,10 +24,4 @@ build/
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
 ```
