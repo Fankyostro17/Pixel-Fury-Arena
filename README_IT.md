@@ -141,6 +141,17 @@ Messaggi WebSocket supportati:
 - Aggiungere LOD (Level of Detail) per SVG complessi
 - Compressione asset grafici
 
+## 🚧 Funzionalità in Sviluppo
+
+- [ ] Bot AI per modalità single player
+- [ ] Sistema di power-up
+- [ ] Multiple arene
+- [ ] Classifiche e statistiche
+- [ ] Effetti particellari
+- [ ] Audio e musica
+- [ ] Skin personalizzabili
+- [ ] Chat in-game
+
 ## 🤝 Contribuire
 
 Sentiti libero di forkare il progetto e inviare pull request!
