@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Corpo del personaggio -->
+  <circle cx="50" cy="50" r="40" fill="#95E1D3" stroke="#388E8E" stroke-width="3"/>
+  
+  <!-- Viso da robot -->
+  <rect x="30" y="30" width="40" height="30" rx="5" fill="#DDD" stroke="#999" stroke-width="2"/>
+  
+  <!-- Occhi LED -->
+  <circle cx="40" cy="42" r="5" fill="#FF6B6B"/>
+  <circle cx="60" cy="42" r="5" fill="#FF6B6B"/>
+  <circle cx="42" cy="40" r="2" fill="#FFF"/>
+  <circle cx="62" cy="40" r="2" fill="#FFF"/>
+  
+  <!-- Boca robotica -->
+  <rect x="40" y="55" width="20" height="5" rx="2" fill="#666"/>
+  
+  <!-- Antenne -->
+  <line x1="40" y1="30" x2="35" y2="15" stroke="#999" stroke-width="3"/>
+  <line x1="60" y1="30" x2="65" y2="15" stroke="#999" stroke-width="3"/>
+  <circle cx="35" cy="15" r="4" fill="#FF6B6B"/>
+  <circle cx="65" cy="15" r="4" fill="#4ECDC4"/>
+</svg>

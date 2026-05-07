@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Sfondo arena -->
+  <rect width="800" height="600" fill="#2D3436"/>
+  
+  <!-- Griglia terreno -->
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#636E72" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <!-- Zone speciali -->
+  <circle cx="400" cy="300" r="80" fill="#6C5CE7" opacity="0.2" stroke="#A29BFE" stroke-width="2"/>
+  <circle cx="200" cy="150" r="50" fill="#00B894" opacity="0.15" stroke="#55EFC4" stroke-width="2"/>
+  <circle cx="600" cy="450" r="50" fill="#FF7675" opacity="0.15" stroke="#FFA5A2" stroke-width="2"/>
+  
+  <!-- Ostacoli -->
+  <rect x="150" cy="250" width="80" height="80" rx="10" fill="#636E72" stroke="#2D3436" stroke-width="3"/>
+  <rect x="570" y="250" width="80" height="80" rx="10" fill="#636E72" stroke="#2D3436" stroke-width="3"/>
+  <rect x="360" y="100" width="80" height="60" rx="10" fill="#636E72" stroke="#2D3436" stroke-width="3"/>
+  <rect x="360" y="440" width="80" height="60" rx="10" fill="#636E72" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Bordi arena -->
+  <rect x="0" y="0" width="800" height="600" fill="none" stroke="#FDCB6E" stroke-width="4"/>
+  
+  <!-- Decorazioni -->
+  <circle cx="100" cy="100" r="20" fill="#FDCB6E" opacity="0.3"/>
+  <circle cx="700" cy="500" r="20" fill="#FDCB6E" opacity="0.3"/>
+  <circle cx="700" cy="100" r="20" fill="#FDCB6E" opacity="0.3"/>
+  <circle cx="100" cy="500" r="20" fill="#FDCB6E" opacity="0.3"/>
+</svg>
