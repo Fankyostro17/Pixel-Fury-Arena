@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:provider/provider.dart';
 import '../providers/game_provider.dart';
 import '../widgets/player_widget.dart';
@@ -179,7 +180,7 @@ class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateM
                       ),
                     ),
                     child: const Icon(
-                      Icons.target,
+                      Icons.center_focus_strong,
                       color: Colors.red,
                       size: 30,
                     ),

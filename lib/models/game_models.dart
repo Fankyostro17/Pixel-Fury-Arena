@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 
 class Player {
   final String id;
@@ -85,11 +86,11 @@ class Vector2D {
   double distanceTo(Vector2D other) {
     final dx = x - other.x;
     final dy = y - other.y;
-    return (dx * dx + dy * dy).sqrt();
+    return math.sqrt(dx * dx + dy * dy);
   }
 
   Vector2D normalized() {
-    final length = (x * x + y * y).sqrt();
+    final length = math.sqrt(x * x + y * y);
     if (length == 0) return Vector2D(0, 0);
     return Vector2D(x / length, y / length);
   }
